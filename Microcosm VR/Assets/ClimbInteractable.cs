@@ -5,12 +5,16 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ClimbInteractable : XRBaseInteractable
 {
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
     protected override void OnSelectEnter(XRBaseInteractor interactor)
     {
         base.OnSelectEnter(interactor);
 
         if(interactor is XRDirectInteractor)
             Climber.climbingHand = interactor.GetComponent<XRController>();
+            audioSource.PlayOneShot(audioClip);
     }
 
     protected override void OnSelectExit(XRBaseInteractor interactor)
@@ -22,6 +26,7 @@ public class ClimbInteractable : XRBaseInteractable
             if(Climber.climbingHand && Climber.climbingHand.name == interactor.name)
             {
                 Climber.climbingHand = null;
+
             }
         }
     }
