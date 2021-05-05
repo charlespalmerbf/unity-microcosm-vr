@@ -25,3 +25,23 @@ Memory: 8 GB RAM
 Graphics: NVIDIA GTX 970 / AMD Radeon R9 290 or greater
 
 Storage: 4 GB available space
+
+# Assets Used for Development
+
+Low Poly Desert Pack - https://tinyurl.com/y484ku4u
+
+Low Poly Cliff Pack - https://tinyurl.com/y6srsfsw
+
+Low Poly Crates - https://tinyurl.com/yxns8l7d
+
+Low Poly Fence Pack - https://tinyurl.com/yxr3zdwr
+
+Low Poly Free Vegetation Pack - https://tinyurl.com/y4r69jkf
+
+Low Poly Pack - https://tinyurl.com/y5z2whag
+
+Fantasy Skybox - https://tinyurl.com/ybxglnrv
+
+LowPoly Environment Pack - https://tinyurl.com/ycuffocb
+
+LowPoly Trees and Rocks - https://tinyurl.com/yybm92ov
