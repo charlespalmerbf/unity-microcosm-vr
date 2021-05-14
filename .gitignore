@@ -70,3 +70,23 @@ crashlytics-build.properties
 *.exr
 *.flare
 *.unity
+*.meta
+*.meta
+*.tif
+*.preset
+*.obj
+*.psd
+*.playable
+*.csproj
+*.asset
+*.pref
+*.json
+*.lock
+*.ide
+*.ide
+*.meta
+*.tga
+*.blend
+*.txt
+*.csproj
+COMP3000 EOY Project/UnityEngine.TestRunner.csproj
