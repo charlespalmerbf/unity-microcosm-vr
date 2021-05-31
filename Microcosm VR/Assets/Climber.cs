@@ -1,4 +1,5 @@
-﻿using System.Collections;
+//Handling Package Imports
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
@@ -8,17 +9,19 @@ public class Climber : MonoBehaviour
 
 {
 
+    //Setting All Public/Private Variables.
     private CharacterController character;
-
     public static XRController climbingHand;
-    
     private ContinuousMovement continuousMovement;
 
     // Start is called before the first frame update
     void Start()
+
     {
+
         character = GetComponent<CharacterController>();
         continuousMovement = GetComponent<ContinuousMovement>();
+
     }
 
     // Update is called once per frame
@@ -60,3 +63,6 @@ public class Climber : MonoBehaviour
     }
     
 }
+
+
+

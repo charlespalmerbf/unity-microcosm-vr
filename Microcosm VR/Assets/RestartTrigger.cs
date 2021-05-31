@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿//Handling Package Imports
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
@@ -10,24 +11,28 @@ public class RestartTrigger : MonoBehaviour
 
     private Scene scene;
 
-    // Start is called before the first frame update
+    // Start Is Called Before First Frame Update
     void Start()
+
     {
-        scene = SceneManager.GetActiveScene();
+
+        scene = SceneManager.GetActiveScene(); //Get The Current Active Scene
+
     }
 
-    // Update is called once per frame
+    // Update Is Called Once Per Frame
     void OnTriggerEnter(Collider other)
+
     {
-        if(other.gameObject.tag == "Player")
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        else
+
+        if(other.gameObject.tag == "Player") //If Player Colides With Zone
+
         {
 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Reload Current Scene
+
         }
+
     }
-
   
 }
