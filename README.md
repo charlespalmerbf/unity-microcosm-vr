@@ -4,7 +4,7 @@ This application was made using Unity 2019.3.8f1 and scripts were coded using C#
 
 Microcosm VR is a Puzzle/Parkour game that places the player in a world where they are miniscule. Their aim, to explore the world and find audio notes to discover their past and the lore, and eventually, escape!
 
-The final game will contain the Tutorial Level, and three main levels, finishing with one finale level. This game will be developed over the course of my BSc (Hons) final year, running from September 2020 to May 2021. 
+The final game will contain the Tutorial Level, and two main levels, finishing with one finale level. This game will be developed over the course of my BSc (Hons) final year, running from September 2020 to May 2021. 
 
 Follow my progress here! - https://tinyurl.com/2pv9uwse
 
