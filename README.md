@@ -1,3 +1,9 @@
+# IMPORTANT: 
+
+As you may have noticed, not all the project files are showing in the GitHub Repo, this was due to an issue with the .gitignore file that I have been struggling with, as a workaround in the meantime, the project folder has been included within the Google Drive Link below. 
+
+Google Drive - https://drive.google.com/file/d/1m8orHbGKto32vPkK6pe7o8ucVYmsUAQl/view?usp=sharing
+
 # Microcosm VR
 
 This application was made using Unity 2019.3.8f1 and scripts were coded using C#.
